@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background: #ffb5d1;
+    background: linear-gradient(135deg, #ff4b2b, #ff416c, #ff4b2b, #ff7e5f, #feb47b);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes gradientBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1 ,
+h2{
+    padding: 1rem;
+    font-weight: 900;
+    font-stretch: 150%;
+    font-family: "Comic Sans MS",serif;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+}
+
+.red {
+    background-color: rgb(198, 79, 79);
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.purple {
+    background-color: rgb(167, 78, 167)
+}
+.flash {
+    background-color: white;
+}
+.userFlash{
+    background-color: skyblue;
+}
