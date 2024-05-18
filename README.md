@@ -1,5 +1,5 @@
 # Simon
-Remember as long as u can
+Remember As Long As You Can
 
 ### [Play the Game](https://whereissimon.netlify.app/)
 
